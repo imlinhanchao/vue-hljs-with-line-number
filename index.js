@@ -1,11 +1,12 @@
 'use strict';
 
 var hljs = require('highlight.js');
+hljs.lineNumbersBlock = require('./hljs-line-number');
 // import hljs from 'highlight.js';
 
 var vueHighlightJS = {};
 vueHighlightJS.install = function install(Vue) {
-  Vue.directive('highlightjs', {
+  Vue.directive('hljs', {
     deep: true,
     bind: function bind(el, binding) {
       // on first bind, highlight all targets
@@ -23,6 +24,7 @@ vueHighlightJS.install = function install(Vue) {
         }
 
         hljs.highlightBlock(target);
+        hljs.lineNumbersBlock(target);
       }
     },
     componentUpdated: function componentUpdated(el, binding) {

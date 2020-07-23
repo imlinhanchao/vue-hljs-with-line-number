@@ -1,16 +1,16 @@
 {
-  "name": "vue-highlightjs",
-  "version": "1.3.3",
+  "name": "vue-hljs-with-line-number",
+  "version": "1.0.0",
   "description": "Syntax highlighting with highlight.js for Vue.js 2.x",
-  "homepage": "https://github.com/metachris/vue-highlightjs",
+  "homepage": "https://github.com/imlinhanchao/vue-hljs-with-line-number",
   "bugs": {
-    "url": "https://github.com/metachris/vue-highlightjs/issues"
+    "url": "https://github.com/imlinhanchao/vue-hljs-with-line-number/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/metachris/vue-highlightjs.git"
+    "url": "git+https://github.com/metachris/vue-hljs-with-line-number.git"
   },
-  "author": "Chris Hager <chris@linuxuser.at> (https://www.metachris.com)",
+  "author": "Hancel.Lin",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,8 @@
     "vuejs",
     "syntax",
     "highlight",
-    "highlight.js"
+    "highlight.js",
+    "line-number"
   ],
   "dependencies": {
     "highlight.js": "*"
