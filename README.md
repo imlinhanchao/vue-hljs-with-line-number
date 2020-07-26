@@ -59,7 +59,10 @@ Contributors:
 * [Hancel Lin](https://github.com/imlinhanchao)
 
 ## Changelog
-v1.0.2
+v1.0.4
+- Fixed issue that single line options spell error.
+
+v1.0.3
 - Fixed issue that single line rendering abnormal.
 
 v1.0.2

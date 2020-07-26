@@ -1,6 +1,6 @@
 {
   "name": "vue-hljs-with-line-number",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Syntax highlighting with highlight.js for Vue.js 2.x",
   "homepage": "https://github.com/imlinhanchao/vue-hljs-with-line-number",
   "bugs": {

@@ -42,7 +42,7 @@ vueHighlightJS.install = function install(Vue) {
         }
         hljs.highlightBlock(target);
         hljs.lineNumbersBlock(target, {
-          singaLine: binding.value.split('\n').length ==1
+          singleLine: binding.value.split('\n').length ==1
         });
       }
     }
