@@ -24,7 +24,9 @@ vueHighlightJS.install = function install(Vue) {
         }
 
         hljs.highlightBlock(target);
-        hljs.lineNumbersBlock(target);
+        hljs.lineNumbersBlock(target, {
+          singaLine: binding.value.split('\n').length ==1
+        });
       }
     },
     componentUpdated: function componentUpdated(el, binding) {
@@ -39,6 +41,9 @@ vueHighlightJS.install = function install(Vue) {
           target.textContent = binding.value;
         }
         hljs.highlightBlock(target);
+        hljs.lineNumbersBlock(target, {
+          singaLine: binding.value.split('\n').length ==1
+        });
       }
     }
   });

@@ -2,8 +2,6 @@
 
 [Vue.js](https://vuejs.org/) syntax highlighting made easy, using [highlight.js](https://highlightjs.org/).
 
-[![Build Status](https://travis-ci.org/metachris/vue-hljs-with-line-number.svg?branch=master)](https://travis-ci.org/metachris/vue-hljs-with-line-number)
-
 ## Quickstart
 
 ### Installation
@@ -61,6 +59,14 @@ Contributors:
 * [Hancel Lin](https://github.com/imlinhanchao)
 
 ## Changelog
+v1.0.2
+- Fixed issue that single line rendering abnormal.
+
+v1.0.2
+- Fixed issue that single line has not line number.
+
+v1.0.1
+- Fixed lost line number when compnoent updated.
 
 v1.0.0
 
