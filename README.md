@@ -59,6 +59,9 @@ Contributors:
 * [Hancel Lin](https://github.com/imlinhanchao)
 
 ## Changelog
+v1.0.5
+- Fixed issue that options spell error.
+
 v1.0.4
 - Fixed issue that single line options spell error.
 
